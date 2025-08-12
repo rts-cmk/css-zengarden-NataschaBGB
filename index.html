@@ -3,10 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>CSS Zen Garden: The Beauty of CSS Design</title>
+	<title>CSS Zen Garden | Switching between styles</title>
 
-	<link rel="stylesheet" media="screen" href="style.css">
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
+	<link id="style" rel="stylesheet" type="text/css" href="finalending.css" />
+	<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml"> -->
+	 <script src="script.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Dave Shea">
@@ -161,6 +162,7 @@
 			</div>
 
 			<footer>
+				<button onclick="toggleTheme()">Change Style</button>
 				<a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML"
 					class="zen-validate-html">HTML</a>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"

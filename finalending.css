@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
 	font-size: 11px;
@@ -97,19 +98,36 @@ header h2 {
 
 /* MARK: Footer
 */
-.main footer {
+footer {
 	background: url(https://csszengarden.com/136/r3_zen666_footer_bg.jpg) no-repeat top left;
     height: 300px;
     margin: 0 -35px 0 -35px;
-    padding: 240px 0 0 0;
+    padding: 237px 0 0 0;
     text-align: center;
+	position: relative;
 }
-.main footer a {
+footer button {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #555;
+	font-weight: bold;
+}
+footer button:hover {
+	background-color: #900;
+}
+footer a {
 	margin: 0 10px;
     color: #900;
-	font-size: .9rem;
+	font-size: 15px;
+	line-height: 1rem;
 }
-.main footer a:hover {
+footer a:hover {
     color: #555;
 }
 
@@ -155,7 +173,7 @@ aside .zen-resources h3 {
 	height: 35px;
 }
 
-/* MARK: Extra
+/* MARK: Extra Components
 */
 .extra1 {
 	background: url(https://csszengarden.com/136/r3_zen666_tombstone.png) no-repeat bottom;

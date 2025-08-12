@@ -1,0 +1,228 @@
+/* MARK: General Styles
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 11px;
+    line-height: 16px;
+    color: #38460c;
+    margin: 10px 5px;
+}
+abbr {
+    border-bottom: 1px dotted #38460c;
+    cursor: help;
+}
+a {
+    color: #5a682e;
+}
+a:hover {
+    color: #000;
+}
+
+/* MARK: Specific Div Styles
+*/
+body {
+    background: url(https://csszengarden.com/067/main_bg_pattern.gif) repeat;
+}
+.page-wrapper {
+    background: url(https://csszengarden.com/067/container_bg.jpg) center top;
+    width: 770px;
+    margin: 0 auto;
+    position: relative;
+}
+.summary, .preamble, .explanation, .participation, .benefits, .requirements, footer {
+    border-bottom: 1px solid #e3e4e0;
+    width: 395px;
+    padding: 0 15px;
+    margin: 0 0 0 335px;
+}
+
+/* MARK: Header
+*/
+header {
+    margin-left: 335px;
+}
+header h1 {
+    background: url(https://csszengarden.com/067/intro_bg_a.jpg) no-repeat;
+    height: 110px;
+    text-indent: -2000px;
+}
+header h2 {
+    background: url(https://csszengarden.com/067/intro_bg_b.jpg) no-repeat;
+    height: 106px;
+    text-indent: -2000px;
+}
+
+/* MARK: Titles
+*/
+.summary {
+    background: url(https://csszengarden.com/067/quicksum_title.gif) no-repeat top left;
+    padding: 30px 15px 0;
+}
+.preamble h3 {
+    background: url(https://csszengarden.com/067/theroad_title.gif) no-repeat top left;
+    height: 30px;
+    text-indent: -2000px;
+    margin: 0 0 0 -15px;
+}
+.explanation h3 {
+    background: url(https://csszengarden.com/067/explain_title.gif) no-repeat top left;
+    height: 30px;
+    text-indent: -2000px;
+    margin: 0 0 0 -15px;
+}
+.participation h3 {
+    background: url(https://csszengarden.com/067/participate_title.gif) no-repeat top left;
+    height: 30px;
+    text-indent: -2000px;
+    margin: 0 0 0 -15px;
+}
+.benefits h3 {
+    background: url(https://csszengarden.com/067/benefit_title.gif) no-repeat top left;
+    height: 30px;
+    text-indent: -2000px;
+    margin: 0 0 0 -15px;
+}
+.requirements h3 {
+    background: url(https://csszengarden.com/067/req_title.gif) no-repeat top left;
+    height: 30px;
+    text-indent: -2000px;
+    margin: 0 0 0 -15px;
+}
+
+/* MARK: Footer
+*/
+footer {
+    border: none;
+    padding: 10px 0 10px;
+    text-align: center;
+}
+footer button {
+    display: block;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+    color: #929B70;
+	background-color: #dee1d3;
+	font-weight: bold;
+    margin: auto;
+}
+footer button:hover {
+	color: #39470D;
+}
+footer a {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* MARK: Aside
+*/
+aside {
+    background: url(https://csszengarden.com/067/intro_title.jpg) no-repeat top left;
+    position: absolute;
+    top: 0;
+    margin-left: 58px;
+    padding: 110px 0 0;
+    width: 277px;
+    font-size: 11px;
+}
+/* MARK: General Styles for Aside
+*/
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+aside .design-selection ul li .designer-name, aside .design-archives ul li a, aside .zen-resources ul li a {
+    font-weight: normal;
+    color: #929B70;
+    display: inline;
+}
+
+/* MARK: Design Selection
+*/
+aside .design-selection h3 {
+    background: url(https://csszengarden.com/067/select_nav_title.gif) no-repeat top left;
+    height: 25px;
+    text-indent: -2000px;
+}
+aside .design-selection ul li:first-of-type {
+    padding: 10px 10px 5px;
+}
+aside .design-selection ul li {
+    background-color: #dee1d3;
+    border-radius: 5px;
+    padding: 6px 10px 5px;
+    margin: 0 0 6px 20px;
+    width: 235px;
+}
+aside .design-selection ul li a {
+    font-weight: bold;
+    color: #39470D;
+    font-size: 11px;
+    display: block;
+}
+
+/* MARK: Design Archives
+*/
+aside .design-archives h3 {
+    background: url(https://csszengarden.com/067/archive_title.gif) no-repeat left top;
+    height: 32px;
+    text-indent: -2000px;
+}
+aside .design-archives ul li:first-of-type {
+    padding: 4px 5px 1px 5px;
+}
+aside .design-archives ul li {
+    padding: 4px 5px 0 5px;
+    margin: 0 0 0 20px;
+    width: 235px;
+}
+aside .design-archives ul li a:hover {
+    color: rgba(54, 68, 10, 0.7);
+}
+
+/* MARK: Zen Resources
+*/
+aside .zen-resources h3 {
+    background: url(https://csszengarden.com/067/res_title.gif) no-repeat top left;
+    height: 50px;
+    text-indent: -2000px;
+}
+aside .zen-resources ul li:first-of-type {
+    padding: 2px 5px 0 5px;
+}
+aside .zen-resources ul li {
+    padding: 5px 5px 0 5px;
+    margin: 0 0 0 20px;
+    width: 235px;
+}
+aside .zen-resources ul li a:hover {
+    color: rgba(54, 68, 10, 0.7);
+}
+
+/* MARK: Media Queries
+*/
+@media (max-width: 768px) {
+    .page-wrapper {
+        width: 375px;
+        margin: 0 auto;
+    }
+    header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, footer {
+        width: 375px;
+        margin-left: 0;
+    }
+    footer {
+        border-bottom: 1px solid #e3e4e0;
+    }
+    aside {
+        position:unset;
+        margin: 20px auto 0;
+        padding: 110px 0 30px;
+    }
+}
