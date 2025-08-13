@@ -210,11 +210,11 @@ aside .zen-resources ul li a:hover {
 */
 @media (max-width: 768px) {
     .page-wrapper {
-        width: 375px;
+        width: fit-content;
         margin: 0 auto;
     }
     header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, footer {
-        width: 375px;
+        width: 100%;
         margin-left: 0;
     }
     footer {
