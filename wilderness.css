@@ -122,13 +122,10 @@ footer {
     margin: 0 -30px;
     padding: 40px 30px 10px 30px;
     height: 20px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
 }
 footer a {
     color: #FFFFFF;
-    font-size: .75em;
+    font-size: .7em;
 }
 
 
