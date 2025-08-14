@@ -101,20 +101,6 @@ footer {
     padding: 10px 0 10px;
     text-align: center;
 }
-footer button {
-    display: block;
-	cursor: pointer;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-    color: #929B70;
-	background-color: #dee1d3;
-	font-weight: bold;
-    margin: auto;
-}
-footer button:hover {
-	color: #39470D;
-}
 footer a {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -204,6 +190,29 @@ aside .zen-resources ul li {
 }
 aside .zen-resources ul li a:hover {
     color: rgba(54, 68, 10, 0.7);
+}
+
+
+/* MARK: Change Style Button
+*/
+.extra2:before {
+  content: "Change Style";
+}
+.extra2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+    color: #929B70;
+	background-color: #dee1d3;
+	font-weight: bold;
+}
+.extra2:hover {
+    color: #39470D;
 }
 
 /* MARK: Media Queries

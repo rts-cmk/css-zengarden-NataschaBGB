@@ -106,21 +106,6 @@ footer {
     text-align: center;
 	position: relative;
 }
-footer button {
-	position: absolute;
-	left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-	cursor: pointer;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	background-color: #555;
-	font-weight: bold;
-}
-footer button:hover {
-	background-color: #900;
-}
 footer a {
 	margin: 0 10px;
     color: #900;
@@ -182,6 +167,28 @@ aside .zen-resources h3 {
 	position: fixed;
 	bottom: 0;
 	left: 538px;
+}
+
+/* MARK: Change Style Button
+*/
+.extra2:before {
+  content: "Change Style";
+}
+.extra2 {
+    position: fixed;
+	top: 0;
+	right: 0;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #555;
+	color: #000000;
+	font-weight: bold;
+}
+.extra2:hover {
+	background-color: #900;
 }
 
 /* MARK: Media Queries
